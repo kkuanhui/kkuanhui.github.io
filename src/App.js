@@ -1,5 +1,6 @@
 import "./assets/App.css";
 import IconBand from "./IconBand";
+import Main from "./Main";
 import NavMenu from "./NavMenu";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <IconBand />
       <NavMenu />
+      <Main />
     </div>
   );
 }
