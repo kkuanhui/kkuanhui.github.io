@@ -35,3 +35,28 @@
   padding-left: 10%;
   width: 100%;
 }
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards > img{
+  border-radius: 30px;
+}
+
+.cards > .card-title{
+  font-size: 2em;
+}
+
+.cards > .card-time{
+  float: right;
+}
+
+#footer {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+}
